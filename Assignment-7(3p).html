@@ -1,0 +1,39 @@
+<!--Generated from HTML Code Play-->
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#dark{
+background-color:black;
+color:white
+}
+</style>
+</head>
+
+<body id="dark">
+<h1 id ="timex"></h1>
+<script>
+function clock(){
+var date=new Date();
+var time=date.toLocaleTimeString();
+const t=document.getElementById('timex')
+t. innerText=time
+}
+var a=prompt("Enter your name")
+document.write(`<font color="white">Hi ${a} Welcome!</font>`)
+setInterval(clock,1000)
+var d=document.getElementById('dark');
+d.classList.toggle('color')
+
+</script>
+
+
+</body>
+
+</html>
+<!--Generated from HTML Code Play.
+ More application
+ Android Code Play
+ SQL Code Play-->
